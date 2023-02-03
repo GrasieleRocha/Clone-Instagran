@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    object-fit: cover;
+}
+
+:root{
+    --body-color:rgba(252, 188, 227, 0.288);
+    --bg-menu: #f87ad242;
+    --text-web:'Poppins', sans-serif;
+    --bg-card-friends:rgb(218, 218, 218);
+}
+
+body{ 
+    background: var(--body-color);
+    font-family: var(--text-web);
+}
+
+
+/*================= removendo estilos dos stories =========== */
+
+
+/* Works on Firefox */
+.container-left .stories {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 25rgb(255, 255, 255) 0);
+}
+
+/* Works on Chrome, Edge, and Safari */
+.container-left .stories::-webkit-scrollbar {
+  width: 0px;
+}
+
+.container-left .stories::-webkit-scrollbar-track {
+  background: var(--body-color);
+}
+
+.container-left .stories::-webkit-scrollbar-thumb {
+  background-color: rgb(243, 130, 205);
+  border-radius: 20px;
+  border: 3px solid var(--body-color);
+}
+
+
+
